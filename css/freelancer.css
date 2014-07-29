@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #fff;
 }
 
 h1,
@@ -80,9 +80,10 @@ hr.star-primary:after {
 }
 
 header {
-    text-align: center;
+    text-align: left;
     color: #685d5d;
     background: #ffffff;
+    line-height: 1;
 }
 
 header .container {
@@ -98,10 +99,30 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
+
+header .intro-text .name1 {
+    display: block;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 4em;
+    font-weight: 300;
+}
+header .intro-text .name2 {
+    display: block;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
 
 header .intro-text .skills {
     font-size: 1.25em;
@@ -153,6 +174,22 @@ header .intro-text .skills {
     font-weight: 700;
 }
 
+ .expe{
+
+    text-transform: lowercase;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.9em;
+    font-weight: 300;
+    
+    float: left;
+    padding: 19.5px 0px;
+    
+    line-height: 21px;
+    height: 60px;
+    
+}
+
 .navbar a:focus {
     outline: 0;
 }
@@ -181,7 +218,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #f1676e;
 }
 
 @media(max-width:767px) {
@@ -192,6 +229,58 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+}
+
+#aboutus .title{
+    display: block;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #685d5d;
+    font-size: 3em;
+    font-weight: 900;
+    font-style: bold;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+#aboutus .subtitle{
+    display: block;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #685d5d;
+    font-size: 1.1em;
+    font-weight: 400;
+    
+    margin-top: 0px;
+}
+
+#aboutus .wedesign{
+
+    padding: 205px 30px;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #685d5d;
+    font-size: 2.5em;
+    font-weight: 300;
+    
+}
+
+#aboutus .top-col{
+    padding-top: 35px;
+}
+
+#aboutus .icono{
+    font-size: 3em;
+    display: block;
+    padding: 20px 20px;
+    color: #685D5D;
+}
+
+#aboutus .text-des{
+    font-size: 1.5em;
+    padding: 20px 20px;
+    color: #685D5D;
+    font-weight: 300;
 }
 
 #portfolio .portfolio-item {
